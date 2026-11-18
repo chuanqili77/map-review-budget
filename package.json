@@ -1,0 +1,13 @@
+{
+  "name": "map-review-budget",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "python -m unittest discover -s tests",
+    "deploy": "node scripts/deploy.mjs",
+    "check": "node scripts/check.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {"genlayer-js": "1.1.8"}
+}

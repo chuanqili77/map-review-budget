@@ -1,0 +1,136 @@
+{
+  "address": "0x570148b1AD179B937E8638E1c46012A0438D2Ae8",
+  "owner": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+  "key": "atlantic-review",
+  "campaign": {
+    "admitted": [
+      100000000
+    ],
+    "bounds_e7": [
+      100000000,
+      -900000000,
+      400000000,
+      -100000000
+    ],
+    "budget": 405,
+    "key": "atlantic-review",
+    "owner": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+    "remaining": 5,
+    "status": "CLOSED"
+  },
+  "decisions": [
+    {
+      "bounds_e7": [
+        144250701,
+        -164232355,
+        144273341,
+        -164212950
+      ],
+      "changes": 400,
+      "id": 100000000,
+      "outcome": "ADMITTED"
+    },
+    {
+      "bounds_e7": [
+        347771860,
+        -823138887,
+        347793241,
+        -823111267
+      ],
+      "changes": 12,
+      "id": 100000001,
+      "outcome": "OVER_BUDGET"
+    },
+    {
+      "bounds_e7": [
+        473065415,
+        115868872,
+        473066945,
+        115870786
+      ],
+      "changes": 5,
+      "id": 100000002,
+      "outcome": "OUT_OF_AREA"
+    }
+  ],
+  "transactions": {
+    "opened": {
+      "hash": "0xff79bc9791f9ba784c5ecfa6de85a9e79b0fe2da78d24655c06af272626a9c71",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "open_campaign",
+      "args": [
+        "atlantic-review",
+        100000000,
+        -900000000,
+        400000000,
+        -100000000,
+        405
+      ]
+    },
+    "no_owner_campaign": {
+      "hash": "0xa59f8e0c62a3d1459e99a72a463b6ca640519c628eb263c0754b1afd955424f9",
+      "sender": "0xedfbf46cd04ef180ae0d600f3445cf1ff26717ea",
+      "method": "submit_changeset",
+      "args": [
+        "atlantic-review",
+        100000000
+      ],
+      "reason": "CAMPAIGN_NOT_FOUND"
+    },
+    "admitted": {
+      "hash": "0x44c41166ef37fac858d125cfe123a79477d4b91de616b07c4f2ea263fba79409",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "submit_changeset",
+      "args": [
+        "atlantic-review",
+        100000000
+      ]
+    },
+    "over_budget": {
+      "hash": "0x227c3483fddb2d500dccb8ccf39c8c0d8e10df32f464420f50e488bbf7c7557c",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "submit_changeset",
+      "args": [
+        "atlantic-review",
+        100000001
+      ]
+    },
+    "out_of_area": {
+      "hash": "0x74dce14c8f3e845e3795002fbfb39ec24850acbc855d21134734e601bd63d078",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "submit_changeset",
+      "args": [
+        "atlantic-review",
+        100000002
+      ]
+    },
+    "duplicate": {
+      "hash": "0x20a9653070aa61654dd17fb45bed1ec525fbe384a794863b7bcc64720078951f",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "submit_changeset",
+      "args": [
+        "atlantic-review",
+        100000000
+      ],
+      "reason": "CHANGESET_ALREADY_EVALUATED"
+    },
+    "closed": {
+      "hash": "0x956e4bcdc6250cdc5947e6a1a743ad687ff0bdfeda56c2830fe7ddf09b36afc4",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "close_campaign",
+      "args": [
+        "atlantic-review"
+      ]
+    },
+    "late_submission": {
+      "hash": "0x4b776c89db15369eb1b40aa0c5d504c7424d96c39b9dfcf6d5e6575dae011523",
+      "sender": "0xcd3dcb0a13f2a150bfbef45ebe244122d9830e84",
+      "method": "submit_changeset",
+      "args": [
+        "atlantic-review",
+        100000003
+      ],
+      "reason": "CAMPAIGN_CLOSED"
+    }
+  }
+}
